@@ -34,7 +34,7 @@
                     href="customer-login.html"><span>
                     <svg class="svg-icon svg-icon-heavy me-2">
                         <use xlink:href="#exit-1"></use>
-                    </svg>Log out</span>
+                    </svg>Cerrar sesion</span>
                 </a>
             </nav>
         </div>

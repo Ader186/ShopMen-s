@@ -6,7 +6,7 @@
 
         <!-- Hero Content-->
         <div class="hero-content pb-5 text-center">
-          <h1 class="hero-heading">Jackets and tops</h1>
+          <h1 class="hero-heading">Chaquetas y tops</h1>
           <div class="row">
             <div class="col-xl-8 offset-xl-2">
               <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -52,7 +52,7 @@
                   <div class="py-2">
                     <p class="text-muted text-sm mb-1">{{ item.category }}</p>
                     <h3 class="h6 text-uppercase mb-1"
-                      style="text-overflow: ellipsis; overflow: hidden white-space: nowrap;;"><a class="text-dark"
+                      style="text-overflow: ellipsis; overflow: hidden white-space nowrap;;"><a class="text-dark"
                         href="detail.html">{{ item.title }}</a></h3><span class="text-muted">{{
                           convertCurrency(item.price)
                         }}</span>
@@ -135,9 +135,9 @@
             </div>
           </div>
           <div class="sidebar-block px-3 px-lg-0 me-lg-4"><a class="d-lg-none block-toggler" data-bs-toggle="collapse"
-              href="#priceFilterMenu" aria-expanded="false" aria-controls="priceFilterMenu">Filter by price</a>
+              href="#priceFilterMenu" aria-expanded="false" aria-controls="priceFilterMenu">Filtrar por precio</a>
             <div class="expand-lg collapse" id="priceFilterMenu">
-              <h6 class="sidebar-heading d-none d-lg-block">Price </h6>
+              <h6 class="sidebar-heading d-none d-lg-block">Precio</h6>
               <div class="mt-4 mt-lg-0" id="slider-snap" ref="slider"> </div>
               <div class="nouislider-values">
                 <div class="min">From<span id="slider-snap-value-lower">{{ convertCurrency(minRange) }}</span></div>
@@ -224,7 +224,7 @@
               href="#colourFilterMenu" aria-expanded="false" aria-controls="colourFilterMenu">Colores</a>
             <!-- Size filter menu-->
             <div class="expand-lg collapse" id="colourFilterMenu">
-              <h6 class="sidebar-heading d-none d-lg-block">Colres</h6>
+              <h6 class="sidebar-heading d-none d-lg-block">Colores</h6>
               <div class="mt-4 mt-lg-0">
                 <ul class="list-inline mb-0 colours-wrapper">
                   <li class="list-inline-item">

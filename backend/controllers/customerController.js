@@ -12,7 +12,7 @@ const register_user_ecomerce = async (req, res) => {
   } else {
     bcrypt.hash(data.password, null, null, async (err, hash) => {
       if (err) {
-        res.status(200).send({ message: "Erro en la encriptacion" });
+        res.status(200).send({ message: "Error en la encriptacion" });
       } else {
         data.password = hash;
         const customer = await Customer.create(data);

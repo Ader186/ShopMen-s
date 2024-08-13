@@ -6,7 +6,8 @@ WORKDIR /usr/src/app
 
 # Copia los archivos del proyecto al contenedor
 COPY package*.json ./
-RUN npm install
+RUN npm install -g nodemon  # Instala nodemon globalmente
+RUN npm install  # Instala las dependencias del proyecto
 
 # Copia el resto de los archivos del proyecto al contenedor
 COPY . .
